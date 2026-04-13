@@ -1,0 +1,141 @@
+{
+  "paper_id": "platform_monopoly",
+  "config_file": "pipeline/mc_configs/platform_monopoly.json",
+  "seed": 42,
+  "n_draws": 100000,
+  "n_channels": 6,
+  "correlation_rho": 0.3,
+  "private_payoff_B": 158.0,
+  "beta_w": {
+    "median": 6.33,
+    "mean": 6.37,
+    "std": 1.01,
+    "p1": 4.24,
+    "p5": 4.8,
+    "p95": 8.12,
+    "p99": 8.96,
+    "ci_90": [
+      4.8,
+      8.1
+    ],
+    "ci_99": [
+      4.2,
+      9.0
+    ],
+    "p_below_1": 0.0,
+    "p_below_1_pct": "0.0000%"
+  },
+  "impossibility_floor": {
+    "floor_value": 2.8,
+    "p_below_floor": 2e-05,
+    "p_below_floor_pct": "0.0020%"
+  },
+  "welfare_cost": {
+    "total_median_B": 999.4,
+    "total_mean_B": 1007.0,
+    "total_p5_B": 758.5,
+    "total_p95_B": 1282.9
+  },
+  "pi_sa": {
+    "median_B": 841.4,
+    "mean_B": 849.0,
+    "p5_B": 600.5,
+    "p95_B": 1124.9
+  },
+  "channel_statistics": {
+    "C1_supracompetitive_pricing": {
+      "median": 194.7,
+      "mean": 194.8,
+      "p5": 119.5,
+      "p95": 269.7,
+      "std": 45.7
+    },
+    "C2_innovation_kill_zone": {
+      "median": 119.9,
+      "mean": 123.7,
+      "p5": 79.9,
+      "p95": 180.5,
+      "std": 31.1
+    },
+    "C3_data_extraction_privacy": {
+      "median": 239.9,
+      "mean": 247.3,
+      "p5": 160.0,
+      "p95": 359.8,
+      "std": 62.0
+    },
+    "C4_publisher_creator_destruction": {
+      "median": 85.1,
+      "mean": 87.4,
+      "p5": 57.7,
+      "p95": 124.9,
+      "std": 20.8
+    },
+    "C5_small_business_dependency": {
+      "median": 199.7,
+      "mean": 199.7,
+      "p5": 120.3,
+      "p95": 279.4,
+      "std": 48.5
+    },
+    "C6_governance_regulatory_capture": {
+      "median": 149.9,
+      "mean": 154.1,
+      "p5": 102.4,
+      "p95": 220.0,
+      "std": 36.4
+    }
+  },
+  "sensitivity_matrix": [
+    {
+      "vsl_multiplier": 0.5,
+      "values": {
+        "dc_0pct": 5.51,
+        "dc_10pct": 4.96,
+        "dc_20pct": 4.41,
+        "dc_30pct": 3.85,
+        "dc_40pct": 3.3
+      }
+    },
+    {
+      "vsl_multiplier": 0.75,
+      "values": {
+        "dc_0pct": 5.89,
+        "dc_10pct": 5.3,
+        "dc_20pct": 4.71,
+        "dc_30pct": 4.12,
+        "dc_40pct": 3.53
+      }
+    },
+    {
+      "vsl_multiplier": 1.0,
+      "values": {
+        "dc_0pct": 6.27,
+        "dc_10pct": 5.64,
+        "dc_20pct": 5.01,
+        "dc_30pct": 4.39,
+        "dc_40pct": 3.76
+      }
+    },
+    {
+      "vsl_multiplier": 1.25,
+      "values": {
+        "dc_0pct": 6.65,
+        "dc_10pct": 5.98,
+        "dc_20pct": 5.32,
+        "dc_30pct": 4.65,
+        "dc_40pct": 3.99
+      }
+    },
+    {
+      "vsl_multiplier": 1.5,
+      "values": {
+        "dc_0pct": 7.03,
+        "dc_10pct": 6.32,
+        "dc_20pct": 5.62,
+        "dc_30pct": 4.92,
+        "dc_40pct": 4.22
+      }
+    }
+  ]
+}
